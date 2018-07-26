@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(wydr.*) wydr.php?rquest=$1 [QSA,NC,L]
